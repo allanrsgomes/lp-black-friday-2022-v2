@@ -13,7 +13,7 @@ let countdownOfertas = new Date('Nov 25, 2022 00:00:00').getTime(),
         document.getElementById('seconds-o').innerText = Math.floor((distance % (minute)) / second);
     }, second)
 
-let countdownLive = new Date('Oct 01, 2022 00:00:00').getTime(),
+let countdownLive = new Date('Nov 25, 2022 00:00:00').getTime(),
     y = setInterval(function() {
         let now2 = new Date().getTime(),
         distance = countdownLive - now2;
